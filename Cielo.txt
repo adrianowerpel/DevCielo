@@ -1,0 +1,7 @@
+MerchantId = 535a6d5b-ce8e-4e7c-b2de-bbd8be9d0b54
+
+MerchantKey = ZNTHHOFTTZNBGLJPCTQSKGJDHQQJNLDJKAUXYBGZ
+
+
+Links de ajuda:
+https://pt.stackoverflow.com/questions/185938/request-na-api-da-cielo-em-php-usando-curl
