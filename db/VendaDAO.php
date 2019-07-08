@@ -14,4 +14,19 @@ class VendaDAO
 
         return $result;
     }
+
+    public function getUltimoID(){
+        global $pdo;
+        $query = "SELECT MAX(id_venda) FROM venda;";
+        $statement = $pdo->prepare($query);
+        $statement->execute();
+        $result = $statement->fetchAll(PDO::FETCH_OBJ);
+
+        if(empty($result[0]->max)){
+            return 0;
+        }
+        else{
+            return $result[0]->max;
+        }
+    }
 }

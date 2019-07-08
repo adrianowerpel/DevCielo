@@ -31,9 +31,6 @@ $template->header();
     ?>
 </table>
 
-<?php
-$template->footer();
-?>
 
 <script>
     function comprar(id) {

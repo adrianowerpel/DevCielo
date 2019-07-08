@@ -81,8 +81,12 @@ $template->header();
             </div>
 
             <div class="form-group">
-                <label for="tipo">Tipo do Cartão</label>
-                <input type="text" class="form-control col-4" id="tipo" name="tipo" value="<?php echo $tipoCartao ?>">
+                <label for="tipo">Tipo de Pagamento</label>
+                <select name="tipo">
+                    <option value="credito">Crédito</option>
+                    <option value="debito">Débito</option>
+                    <option name="boleto">Boleto</option>
+                </select>
             </div>
 
             <input type="submit" value="Comprar" class="btn btn-primary">
