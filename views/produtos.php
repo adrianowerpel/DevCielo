@@ -8,7 +8,7 @@ $template = new template();
 $produtoDAO = new ProdutoDAO();
 $produtos = $produtoDAO->getAll();
 
-
+$template->header();
 
 ?>
 
@@ -30,6 +30,10 @@ $produtos = $produtoDAO->getAll();
         }
     ?>
 </table>
+
+<?php
+$template->footer();
+?>
 
 <script>
     function comprar(id) {

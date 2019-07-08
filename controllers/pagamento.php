@@ -67,4 +67,3 @@ $idCartao = $_SESSION['cartao'][0]->id_cartao;
 $totalVenda = intval($_POST['valor']);
 
 $teste = $vendaDAO->salvaVenda($idProduto, $codigoCliente, $idCartao, $totalVenda, $paymentId, $merchantOrderID);
-var_dump($teste);

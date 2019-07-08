@@ -16,6 +16,8 @@ $_SESSION['produto'] = $produto;
 
 $tipoCartao = $cartao[0]->cvc ? 'Credito' : 'Debito';
 
+$template->header();
+
 ?>
 
     <div class="container" style="margin-top: 5%;margin-left: 40%">
