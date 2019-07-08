@@ -4,7 +4,6 @@
     <list default="true" id="661a9e2d-61d7-48ee-a344-81847af77e66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/pagamento.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/pagamento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/VendaDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/VendaDAO.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/produtos.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/produtos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/venda_produto.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/venda_produto.php" afterDir="false" />
@@ -23,50 +22,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/pagamento.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/produtos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
-                <element signature="e#76#101#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/ClienteDAO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/VendaDAO.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/venda_produto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="46" />
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -101,12 +91,12 @@
         <option value="$PROJECT_DIR$/controllers/ProdutoController.php" />
         <option value="$PROJECT_DIR$/controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/views/template.php" />
-        <option value="$PROJECT_DIR$/views/index.php" />
-        <option value="$PROJECT_DIR$/views/produtos.php" />
-        <option value="$PROJECT_DIR$/views/venda_produto.php" />
-        <option value="$PROJECT_DIR$/db/VendaDAO.php" />
         <option value="$PROJECT_DIR$/db/ClienteDAO.php" />
+        <option value="$PROJECT_DIR$/db/VendaDAO.php" />
         <option value="$PROJECT_DIR$/controllers/pagamento.php" />
+        <option value="$PROJECT_DIR$/views/produtos.php" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/views/venda_produto.php" />
       </list>
     </option>
   </component>
@@ -202,18 +192,18 @@
       <workItem from="1562521335528" duration="1276000" />
       <workItem from="1562523135045" duration="15287000" />
       <workItem from="1562550668211" duration="147000" />
-      <workItem from="1562586904694" duration="5387000" />
+      <workItem from="1562586904694" duration="7878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63686000" />
+    <option name="totallyTimeSpent" value="66177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26213592" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26213592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,13 +299,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ProdutoController.php" />
     <entry file="file://$PROJECT_DIR$/views/pagamento_credito.html" />
-    <entry file="file://$PROJECT_DIR$/vendor/developercielo/api-3.0-php/src/Cielo/API30/Ecommerce/Payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="810" column="36" selection-start-line="810" selection-start-column="20" selection-end-line="810" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/ProdutoDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -330,20 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.php">
+    <entry file="file://$PROJECT_DIR$/db/ClienteDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/produtos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -354,34 +327,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/ClienteDAO.php">
+    <entry file="file://$PROJECT_DIR$/vendor/developercielo/api-3.0-php/src/Cielo/API30/Ecommerce/Payment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/venda_produto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+        <state relative-caret-position="171">
+          <caret line="810" column="36" selection-start-line="810" selection-start-column="20" selection-end-line="810" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/VendaDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="328">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/pagamento.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/produtos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="e#76#101#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/venda_produto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>

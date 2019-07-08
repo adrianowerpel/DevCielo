@@ -32,7 +32,7 @@ $environment = $environment = Environment::sandbox();
 // Configure seu merchant
 $merchant = new Merchant('535a6d5b-ce8e-4e7c-b2de-bbd8be9d0b54', 'ZNTHHOFTTZNBGLJPCTQSKGJDHQQJNLDJKAUXYBGZ');
 
-if($tipoPagamento = 'credito') {
+if($tipoPagamento == 'credito') {
     // Crie uma instância de Sale informando o ID do pedido na loja
     $sale = new Sale($merchantOrderID);
     $merchantOrderID = $sale->getMerchantOrderId();
@@ -59,11 +59,12 @@ if($tipoPagamento = 'credito') {
         // Com a venda criada na Cielo, já temos o ID do pagamento, TID e demais
         // dados retornados pela Cielo
         $paymentId = $sale->getPayment()->getPaymentId();
+        $message = $sale->getPayment()->getReturnMessage();
 
-        // Com o ID do pagamento, podemos fazer sua captura, se ela não tiver sido capturada ainda
-        $sale = (new CieloEcommerce($merchant, $environment))->captureSale($paymentId, 15700, 0);
-        // E também podemos fazer seu cancelamento, se for o caso
-        // $sale = (new CieloEcommerce($merchant, $environment))->cancelSale($paymentId, 15700);
+        $vendaDAO->salvaVenda($idProduto, $codigoCliente, $idCartao, $totalVenda, $paymentId, $merchantOrderID);
+
+        header('Location: ../views/produtos.php?message='.$message);
+
     } catch (CieloRequestException $e) {
         // Em caso de erros de integração, podemos tratar o erro aqui.
         // os códigos de erro estão todos disponíveis no manual de integração.
@@ -71,7 +72,7 @@ if($tipoPagamento = 'credito') {
     }
 }
 
-if($tipoPagamento = 'boleto'){
+if($tipoPagamento == 'boleto'){
 
     // Crie uma instância de Sale informando o ID do pedido na loja
     $sale = new Sale($merchantOrderID);
@@ -111,6 +112,8 @@ if($tipoPagamento = 'boleto'){
         $paymentId = $sale->getPayment()->getPaymentId();
         $boletoURL = $sale->getPayment()->getUrl();
 
+        $vendaDAO->salvaVenda($idProduto, $codigoCliente, $idCartao, $totalVenda, $paymentId, $merchantOrderID);
+
         header('Location: '.$boletoURL);
     } catch (CieloRequestException $e) {
         // Em caso de erros de integração, podemos tratar o erro aqui.
@@ -118,5 +121,3 @@ if($tipoPagamento = 'boleto'){
         $error = $e->getCieloError();
     }
 }
-
-$teste = $vendaDAO->salvaVenda($idProduto, $codigoCliente, $idCartao, $totalVenda, $paymentId, $merchantOrderID);

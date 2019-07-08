@@ -104,5 +104,5 @@ $template->footer();
         var valor = $('#valor').val();
         var total = qtd * valor;
         $('#valor').val(total);
-    })
+    });
 </script>

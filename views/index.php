@@ -5,6 +5,7 @@ require_once 'template.php';
 $template = new template();
 
 $template->header();
+
 ?>
 
 <div class="container" style="margin-top: 5%;margin-left: 40%">

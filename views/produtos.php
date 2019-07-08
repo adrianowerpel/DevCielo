@@ -10,6 +10,12 @@ $produtos = $produtoDAO->getAll();
 
 $template->header();
 
+if(!empty($_GET['message'])){
+    echo '<div class="alert alert-success" role="alert">
+             '.$_GET['message'].'!
+          </div>';
+}
+
 ?>
 
 <table class="table align-content-center" style="text-align: center;width: 70%;margin-left: 10%">
@@ -30,7 +36,6 @@ $template->header();
         }
     ?>
 </table>
-
 
 <script>
     function comprar(id) {
